@@ -22,7 +22,7 @@
         <input type="number" name="price" placeholder="price" class="form-control" >
      <div class="form-group">
         <label>Discount Percent:</label>
-        <input type="number" name="percent" placeholder="discount" class="form-control" >
+        <input type="number" name="percent" placeholder="discount " class="form-group">(%)
     <br>
     <button type="submit" class="btn btn-primary">Calculator Discount</button>
 </form>

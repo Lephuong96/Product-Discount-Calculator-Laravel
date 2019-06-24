@@ -16,10 +16,10 @@
 
     <form>
         <label class="form-control">Product Description: {{$description}}</label>
-        <label class="form-control">Price:{{$price}}</label>
-        <label class="form-control">Discount Percent:{{$percent}}</label>
-        <label class="form-control">Discount Amount: {{$discountAmount}}</label>
-        <label class="form-control">Discount Price:{{$discountPrice}}</label>
+        <label class="form-control">Price:{{$price}}đ</label>
+        <label class="form-control">Discount Percent:{{$percent}}%</label>
+        <label class="form-control">Discount Amount: {{$discountAmount}}đ</label>
+        <label class="form-control">Discount Price:{{$discountPrice}}đ</label>
 
     </form>
     <a href="{{route('ok')}}">
