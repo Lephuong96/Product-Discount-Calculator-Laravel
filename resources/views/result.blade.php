@@ -11,6 +11,9 @@
 </head>
 <body>
 <div style="width: 50%" class="container">
+    <h1>Display-discount</h1>
+
+
     <form>
         <label class="form-control">Product Description: {{$description}}</label>
         <label class="form-control">Price:{{$price}}</label>
@@ -19,6 +22,9 @@
         <label class="form-control">Discount Price:{{$discountPrice}}</label>
 
     </form>
+    <a href="{{route('ok')}}">
+        <button type="button" class="btn btn-primary">BACK</button>
+    </a>
 </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/product', 'ProductController@showProduct');
+Route::get('/product', 'ProductController@showProduct')->name('ok');
 
 Route::post('/product/result', 'ProductController@calculate')->name('cal');

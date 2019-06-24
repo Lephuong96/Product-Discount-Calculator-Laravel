@@ -10,18 +10,19 @@
 </head>
 <body>
 <div style="width: 50%" class="container">
+    <h1>Product Discount Calculator</h1>
 <form action="{{route('cal')}}" method="post" >
     @csrf
     <div class="form-group">
         <label>Product Description:</label>
-        <input type="text" name="description" class="form-control" >
+        <input type="text" name="description" placeholder="product name" class="form-control" >
     </div>
     <div class="form-group">
         <label>List Price:</label>
-        <input type="int" name="price" class="form-control" >
+        <input type="number" name="price" placeholder="price" class="form-control" >
      <div class="form-group">
         <label>Discount Percent:</label>
-        <input type="int" name="percent" class="form-control" >
+        <input type="number" name="percent" placeholder="discount" class="form-control" >
     <br>
     <button type="submit" class="btn btn-primary">Calculator Discount</button>
 </form>
